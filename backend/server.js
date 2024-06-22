@@ -7,7 +7,7 @@ import path from 'path';
 const __dirname = path.resolve();
 
 import cookieParser from 'cookie-parser'
-connectDb();
+connectDb();x
 
 
 app.use(bodyParser.json({ limit: '50mb' }));
